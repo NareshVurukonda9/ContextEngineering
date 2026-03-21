@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "endpoint": "v2/records",
+    "generated_at": "2025-10-01T14:32:00Z",
+    "total": 12,
+    "page": 1,
+    "page_size": 50
+  },
+  "results": [
+    {
+      "id": "rec_9f2a3b",
+      "timestamp": "2025-10-01T14:32:00Z",
+      "payload": {
+        "name": "Acme Corp",
+        "segment": "enterprise",
+        "status": "active",
+        "description": "Acme Corp is a Fortune 500 manufacturing conglomerate using the Platform Pro tier for supply chain automation and procurement workflows across 14 global facilities.",
+        "amount": 112000.00,
+        "active": true,
+        "tags": ["enterprise", "manufacturing", "platform-pro"],
+        "contacts": {
+          "primary": "sarah.chen@acmecorp.com",
+          "billing": "ap@acmecorp.com"
+        }
+      },
+      "user_id": "user_881",
+      "org_id": "org_acme",
+      "created_at": "2023-03-15T09:00:00Z",
+      "updated_at": "2025-09-28T16:44:00Z"
+    },
+    {
+      "id": "rec_a3f1c2",
+      "timestamp": "2025-10-01T13:18:00Z",
+      "payload": {
+        "name": "Globex Industries",
+        "segment": "enterprise",
+        "status": "active",
+        "description": "Globex Industries operates a SaaS-native logistics platform and adopted our Enterprise tier in Q2 2024. Primary use cases include real-time fleet tracking dashboards and automated invoice reconciliation.",
+        "amount": 98500.00,
+        "active": true,
+        "tags": ["enterprise", "logistics", "saas"],
+        "contacts": {
+          "primary": "ops@globexind.com",
+          "billing": "finance@globexind.com"
+        }
+      },
+      "user_id": "user_204",
+      "org_id": "org_globex",
+      "created_at": "2024-04-02T11:30:00Z",
+      "updated_at": "2025-10-01T08:12:00Z"
+    },
+    {
+      "id": "rec_b7d4e9",
+      "timestamp": "2025-09-30T17:05:00Z",
+      "payload": {
+        "name": "Initech Solutions",
+        "segment": "mid-market",
+        "status": "active",
+        "description": "Initech Solutions provides managed IT services to regional healthcare networks. Joined on the Mid-Market Platform plan in Q1 2025, primarily leveraging compliance reporting and audit trail features.",
+        "amount": 38000.00,
+        "active": true,
+        "tags": ["mid-market", "healthcare", "compliance"],
+        "contacts": {
+          "primary": "james.wu@initech.io",
+          "billing": "billing@initech.io"
+        }
+      },
+      "user_id": "user_517",
+      "org_id": "org_initech",
+      "created_at": "2025-01-10T14:00:00Z",
+      "updated_at": "2025-09-15T10:33:00Z"
+    },
+    {
+      "id": "rec_c1e8f3",
+      "timestamp": "2025-09-29T09:44:00Z",
+      "payload": {
+        "name": "Umbrella Analytics",
+        "segment": "mid-market",
+        "status": "churned",
+        "description": "Umbrella Analytics was a mid-market customer focused on marketing attribution. Contract ended September 30, 2025 after a competitive displacement by an in-house solution. Exit interview flagged pricing and lack of native CRM integration.",
+        "amount": 0.00,
+        "active": false,
+        "churn_reason": "competitive_displacement",
+        "churn_date": "2025-09-30",
+        "tags": ["mid-market", "analytics", "churned"],
+        "contacts": {
+          "primary": "cto@umbrellaanalytics.com",
+          "billing": "finance@umbrellaanalytics.com"
+        }
+      },
+      "user_id": "user_392",
+      "org_id": "org_umbrella",
+      "created_at": "2023-11-20T08:00:00Z",
+      "updated_at": "2025-09-30T23:59:00Z"
+    },
+    {
+      "id": "rec_d5a2b8",
+      "timestamp": "2025-10-01T11:20:00Z",
+      "payload": {
+        "name": "Pinnacle Retail Group",
+        "segment": "enterprise",
+        "status": "active",
+        "description": "Pinnacle Retail Group is a multi-brand e-commerce operator with 22 storefronts. Upgraded from Mid-Market to Enterprise Platform Pro in Q3 2025, expanding usage to include predictive inventory and supplier risk scoring modules.",
+        "amount": 145000.00,
+        "active": true,
+        "tags": ["enterprise", "retail", "ecommerce", "platform-pro"],
+        "contacts": {
+          "primary": "platform@pinnacleretail.com",
+          "billing": "accounts@pinnacleretail.com"
+        }
+      },
+      "user_id": "user_744",
+      "org_id": "org_pinnacle",
+      "created_at": "2022-07-18T10:00:00Z",
+      "updated_at": "2025-09-01T14:55:00Z"
+    },
+    {
+      "id": "rec_e9c3d7",
+      "timestamp": "2025-10-01T10:08:00Z",
+      "payload": {
+        "name": "NovaBridge Consulting",
+        "segment": "smb",
+        "status": "active",
+        "description": "NovaBridge is a boutique strategy consultancy with 18 employees. On the SMB Starter plan, using the platform primarily for client deliverable tracking and automated weekly status report generation.",
+        "amount": 11500.00,
+        "active": true,
+        "tags": ["smb", "consulting", "starter"],
+        "contacts": {
+          "primary": "hello@novabridge.co",
+          "billing": "hello@novabridge.co"
+        }
+      },
+      "user_id": "user_119",
+      "org_id": "org_novabridge",
+      "created_at": "2025-05-22T09:15:00Z",
+      "updated_at": "2025-08-30T12:00:00Z"
+    },
+    {
+      "id": "rec_f2b6a4",
+      "timestamp": "2025-09-28T15:30:00Z",
+      "payload": {
+        "name": "Stratos Financial",
+        "segment": "enterprise",
+        "status": "at-risk",
+        "description": "Stratos Financial is a regional investment bank that has been on the Enterprise Standard tier since 2022. Health score dropped to 42 in September due to low product adoption after a key champion departed. QBR scheduled for October 8.",
+        "amount": 88000.00,
+        "active": true,
+        "health_score": 42,
+        "risk_flag": "champion_departure",
+        "tags": ["enterprise", "finance", "at-risk"],
+        "contacts": {
+          "primary": "itops@stratosfi.com",
+          "billing": "ap@stratosfi.com"
+        }
+      },
+      "user_id": "user_630",
+      "org_id": "org_stratos",
+      "created_at": "2022-01-05T08:00:00Z",
+      "updated_at": "2025-09-25T17:00:00Z"
+    },
+    {
+      "id": "rec_g8h1i5",
+      "timestamp": "2025-10-01T08:55:00Z",
+      "payload": {
+        "name": "Meridian Healthcare Systems",
+        "segment": "mid-market",
+        "status": "active",
+        "description": "Meridian Healthcare Systems is a regional hospital network using the platform for patient workflow coordination and inter-department task routing. Strong NPS of 72 recorded in Q3 survey.",
+        "amount": 41000.00,
+        "active": true,
+        "nps": 72,
+        "tags": ["mid-market", "healthcare", "high-nps"],
+        "contacts": {
+          "primary": "digital@meridianhcs.org",
+          "billing": "finance@meridianhcs.org"
+        }
+      },
+      "user_id": "user_855",
+      "org_id": "org_meridian",
+      "created_at": "2024-09-01T09:00:00Z",
+      "updated_at": "2025-09-20T11:22:00Z"
+    },
+    {
+      "id": "rec_h4j7k2",
+      "timestamp": "2025-09-27T14:10:00Z",
+      "payload": {
+        "name": "Vertex Dynamics",
+        "segment": "smb",
+        "status": "trial",
+        "description": "Vertex Dynamics is a seed-stage robotics startup evaluating the SMB Starter plan. Currently in a 14-day trial with active usage of the automation builder and webhook integrations. Sales follow-up scheduled for October 5.",
+        "amount": 0.00,
+        "active": false,
+        "trial_end": "2025-10-10",
+        "tags": ["smb", "robotics", "trial"],
+        "contacts": {
+          "primary": "founder@vertexdynamics.ai",
+          "billing": null
+        }
+      },
+      "user_id": "user_991",
+      "org_id": "org_vertex",
+      "created_at": "2025-09-27T00:00:00Z",
+      "updated_at": "2025-10-01T07:30:00Z"
+    },
+    {
+      "id": "rec_i6l3m9",
+      "timestamp": "2025-09-26T10:00:00Z",
+      "payload": {
+        "name": "Cascade Education Trust",
+        "segment": "mid-market",
+        "status": "active",
+        "description": "Cascade Education Trust manages 14 charter schools and uses the platform for staff scheduling, curriculum approval workflows, and parent communication automation. Eligible for nonprofit pricing discount applied at renewal.",
+        "amount": 29500.00,
+        "active": true,
+        "discount_type": "nonprofit",
+        "tags": ["mid-market", "education", "nonprofit"],
+        "contacts": {
+          "primary": "systems@cascadeedu.org",
+          "billing": "operations@cascadeedu.org"
+        }
+      },
+      "user_id": "user_403",
+      "org_id": "org_cascade",
+      "created_at": "2024-02-14T10:00:00Z",
+      "updated_at": "2025-07-01T09:00:00Z"
+    },
+    {
+      "id": "rec_j9n5o1",
+      "timestamp": "2025-09-25T16:45:00Z",
+      "payload": {
+        "name": "Redwood DevOps",
+        "segment": "smb",
+        "status": "active",
+        "description": "Redwood DevOps is a 9-person engineering consultancy specializing in CI/CD pipeline design. Uses the Starter plan primarily for project intake forms and automated client onboarding sequences.",
+        "amount": 9800.00,
+        "active": true,
+        "tags": ["smb", "devops", "starter"],
+        "contacts": {
+          "primary": "admin@redwooddevops.com",
+          "billing": "admin@redwooddevops.com"
+        }
+      },
+      "user_id": "user_278",
+      "org_id": "org_redwood",
+      "created_at": "2025-03-11T11:00:00Z",
+      "updated_at": "2025-09-01T08:45:00Z"
+    },
+    {
+      "id": "rec_k2p8q6",
+      "timestamp": "2025-09-24T09:30:00Z",
+      "payload": {
+        "name": "Axiom Property Group",
+        "segment": "mid-market",
+        "status": "active",
+        "description": "Axiom Property Group is a commercial real estate firm managing 340 properties. The platform handles lease lifecycle management, maintenance ticketing, and vendor payment approval workflows for their operations team.",
+        "amount": 36000.00,
+        "active": true,
+        "tags": ["mid-market", "real-estate", "operations"],
+        "contacts": {
+          "primary": "tech@axiomproperty.com",
+          "billing": "accounting@axiomproperty.com"
+        }
+      },
+      "user_id": "user_567",
+      "org_id": "org_axiom",
+      "created_at": "2023-08-20T13:00:00Z",
+      "updated_at": "2025-08-15T10:10:00Z"
+    }
+  ]
+}
