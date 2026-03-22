@@ -352,7 +352,7 @@ print("Chroma imported successfully")
 
 ## Author
 
-Created by Naresh Vurukonda
+Created by Naresh Vurukonda; Shivendra Srivastava
 
 ## Contributing
 
